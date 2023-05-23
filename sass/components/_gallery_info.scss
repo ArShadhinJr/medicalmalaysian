@@ -1,0 +1,43 @@
+#gallery{
+    padding: 60px 0;
+    .information{
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.651) , -1px -1px 5px rgba(128, 128, 128, 0.651);
+        img{
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+            width: 95%;
+            margin-top: 15px;
+            transform: translateX(0);
+            
+            &:hover{
+                transform: translateY(-10px);
+                transition: 0.5s;
+            }
+        }
+        a{
+            color: black;
+            font-size: 30px;
+            padding: 25px 0 25px 0;
+            font-weight: 500;
+
+            &:hover{
+                color: #e31c2c;
+                transition: 0.3s;
+            }
+        }
+    }
+    .hospital_room{
+        a{
+            padding: 75px 0 25px 0;
+        }
+    }
+    .radiology{
+        a{
+            padding: 100px 0 25px 0
+        }
+    }
+}

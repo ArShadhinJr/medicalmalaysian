@@ -1,0 +1,39 @@
+#overview{
+    padding: 80px 0;
+    .overview-item{
+        outline: 2px solid gray;
+        border-radius: 10px;
+        .text-part{
+            .info{
+                ul{
+                    padding: 50px 0 0 60px;
+                    li{
+                        list-style-type: decimal;
+                        font-size: 18px;
+                        padding: 5px 0;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+        .image-part{
+            img{
+                width: 100%;
+                max-width: 100%;
+                border-radius: 10px;
+                margin: 10px 10px 10px 0;
+            }
+        }
+    }
+    .bottom-txt{
+        border: 2px solid gray;
+        margin-top: 60px;
+        border-radius: 10px;
+        p{
+            font-size: 24px;
+            color: gray;
+            padding: 40px 60px;
+            text-align: justify;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+#form{
+    padding: 80px 0;
+    .address{
+        padding-top: 60px;
+        table{
+            width: 100%;
+            tr{
+                border: 1px solid gray;
+                td{
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    p:nth-child(2){
+                        font-size: 18px;
+                        padding: 10px 0 0 15px;
+                        opacity: 0.8;
+                    }
+                    p:nth-child(3){
+                        font-size: 18px;
+                        opacity: 0.8;
+                        padding: 5px 0 0 15px;
+                    }
+                    p:nth-child(4){
+                        font-size: 18px;
+                        opacity: 0.8;
+                        padding: 5px 0 70px 15px;
+                    }
+                }
+            }
+        }
+    }
+    .input_area{
+        p{
+            text-align: center;
+            font-size: 24px;
+        }
+        .input_item{
+            margin: 20px 0 0 0;
+            border: 1px solid gray;
+            padding: 10px 20px;
+            border-radius: 10px;
+            label{
+                font-size: 18px;
+                color: black;
+            }
+            input{
+                border: none;
+                width: 80%;
+                padding-left: 10px;
+            }
+        }
+        .message_area{
+            margin-top: 20px;
+            textarea{
+                width: 100%;
+                border-radius: 10px;
+                padding: 10px 20px;
+            }
+        }
+    }
+    .contact_number{
+        margin-top: 40px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        p{
+            font-size: 22px;
+            padding: 20px 0 0 25px;
+        }
+        ul{
+            padding: 15px 0 20px 35px;
+            li {
+                font-size: 18px;
+                opacity: 0.8;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .language{
+        margin-top: 40px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        ul{
+            padding: 15px 0 85px 35px;
+            li{
+                text-transform: capitalize;
+                font-size: 18px;
+                opacity: 0.8;
+                padding: 10px 0;
+            }
+        }
+    }
+}

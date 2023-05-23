@@ -1,0 +1,11 @@
+#info_banner{
+    background: url(../../image/info_banner_bg_img.jpg) no-repeat center / cover;
+    .text-part{
+        text-align: center;
+        h2 {
+            padding: 340px 0 340px 0;
+            color: white;
+            font-size: 54px;
+        }
+    }
+}

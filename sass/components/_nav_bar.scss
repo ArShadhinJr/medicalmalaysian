@@ -1,0 +1,65 @@
+.navbar{
+    background-color: #fffeff !important;
+    .navbar-brand{
+        img{
+            width: 60px;
+        }
+    }
+    .navbar-collapse{
+        ul{
+            li{
+                a{
+                    color: #010101;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 0 25px !important;
+                    text-transform: capitalize;
+
+                    // css line 27 ar jonno
+                    position: relative;
+                    &:hover{
+                        color: #e31d2e;
+                        transition: 0.3s;
+                    }
+                    &::after{
+                        content: "";
+
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                        background-color: #e31d2e;
+                        width: 0%;
+                        height: 3px;
+                        border-radius: 35px;
+                    }
+                    &:hover::after{
+                        width: 70%;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+        form{
+            button{
+                color: #fb2e2e;
+                background-color: white;
+                font-size: 15px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 10px;
+                border: 1px solid #fb2e2e;
+                &:hover{
+                    color: white;
+                    background: #fb2e2e;
+                    transition: 0.3s;
+                    border: 1px solid white;
+                }               
+            }
+        }
+    }
+}

@@ -1,0 +1,334 @@
+@media(min-width:576px) and (max-width:767.98px){
+/* ----------------------------- home page css start ----------------------------- */
+
+    .navbar ul{
+        text-align: center;
+        background-color: rgb(189, 182, 182);
+        border-radius: 10px;
+    }
+    .navbar .navbar-collapse ul li a{
+        padding: 10px 0 !important;
+        color: white;
+        font-size: 16px;
+    }
+    .navbar .navbar-collapse ul li a:hover::after{
+        width: 20%;
+        transition: 0.5s;
+    }
+
+
+    #banner h1 {
+        padding: 100px 0px 0 15px;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #banner h3 {
+        padding: 10px 0 60px 15px;
+        font-size: 20px;
+    }
+
+
+    #highlight_promotion .row .image-part img{
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        margin: 10px 0 0 0px;
+    }
+    #highlight_promotion .row .text-part .info p{
+        padding: 30px 0 0 60px;
+    }
+    #highlight_promotion .row .text-part .info ul{
+        padding: 15px 0 30px 60px;
+    }
+
+
+    #letest_news .row .image-part img{
+        margin: 0px 0 0 0px;
+    }
+    #letest_news .row .text-part .info p {
+        font-size: 22px;
+        margin: 40px 0 0 10px;
+        border-radius: 5px;
+    }
+    
+/* ----------------------------- home page css end ----------------------------- */    
+/* ----------------------------- infomation page css end ----------------------------- */    
+
+    #info_banner .text-part h2 {
+        padding: 110px 0 80px 0;
+        font-size: 36px;
+    }
+
+
+    #overview .overview-item .text-part .info ul{
+        padding: 30px 0 30px 60px;
+    }
+    #overview .overview-item .text-part .info ul li {
+        font-size: 19px;
+    }
+    #overview .bottom-txt p{
+        font-size: 19px;
+        padding: 20px 30px;
+    }
+/* ----------------------------- information page css end ----------------------------- */    
+/* ----------------------------- gallery page css start ----------------------------- */    
+    
+    #gallery {
+        padding: 0 0 60px 0;
+    }
+    #gallery .information a{
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 0 20px 0;
+    }
+    #gallery .hospital_room a{
+        padding: 40px 0 20px 0;
+    }
+    #gallery .radiology a {
+        padding: 50px 20px 20px;
+    }
+   
+/* ----------------------------- gallery page css end ----------------------------- */    
+/* ----------------------------- contact us page css start ----------------------------- */    
+    
+    #form{
+        padding: 0 0 80px 0;
+    }
+    #form .address{
+        padding-top: 30px;
+    }
+    #form .address table tr td{
+        font-size: 18px;
+        text-transform: capitalize;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    #form .input_area{
+        margin-top: 40px;
+    }
+    #form .input_area p{
+        font-size: 22px;
+    }
+    #form .input_area .input_item label{
+        font-size: 16px;
+    }
+    #form .input_area .input_item input{
+        font-size: 15px;
+    }
+    #form .contact_number p{
+        font-size: 20px;
+    }
+    #form .contact_number ul li{
+        font-size: 16px;
+    }
+    #form .language ul {
+        padding: 15px 0 50px 35px;
+      }
+    #form .language ul li{
+        font-size: 16px;
+    }
+
+    /* -------- contact us page css end -------- */    
+    /* --------  about us page css end -------- */    
+    
+    #main {
+        padding: 80px 0 20px 0;
+      }
+    #main ul{
+        padding: 30px 30px 40px 30px;
+    }
+    #main ul li{
+        /* text-align: justify; */
+        font-size: 18px;
+        padding: 20px 0 20px 0;
+    }
+
+    #team{
+        padding: 50px 0 80px 0;
+        background-color: #F4F6FC;
+    }
+    #team .team-member .member{
+        margin-top: 25px;
+    }
+
+/* -------- information page css end ------- */    
+}
+
+@media(min-width:1200px) and (max-width:1399.98px){
+    /* -------- home page css start -------- */
+
+    .navbar form input{
+        width: 200px;
+        font-size: 15px;
+    }
+    .navbar ul{
+        text-align: center;
+        border-radius: 10px;
+    }
+    .navbar .navbar-collapse ul li a{
+        font-size: 15px;
+        padding: 0 15px !important;
+    }
+    .navbar .navbar-collapse ul li a:hover::after{
+        width: 75%;
+        transition: 0.5s;
+    }
+
+
+    #banner h1 {
+        padding: 145px 0px 0 15px;
+        color: white;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    #banner h3 {
+        padding: 10px 125px 90px 15px;
+        font-size: 30px;
+    }
+
+
+    #highlight_promotion .row .image-part img{
+        border-radius: 15px;
+        margin: 10px 0 0 0px;
+    }
+    #highlight_promotion .row .text-part .info p{
+        padding: 30px 0 0 60px;
+    }
+    #highlight_promotion .row .text-part .info ul{
+        padding: 15px 0 30px 60px;
+    }
+
+
+    #letest_news .row .image-part img{
+        margin: 0px 0 0 0px;
+    }
+    #letest_news .row .text-part .info p {
+        font-size: 22px;
+        margin: 0px 0 0 10px;
+        border-radius: 5px;
+    }
+    
+/* ----------------------------- home page css end ----------------------------- */    
+/* ----------------------------- infomation page css end ----------------------------- */    
+
+    #info_banner .text-part h2 {
+        padding: 240px 0 240px 0;
+        color: white;
+        font-size: 36px;
+    }
+    #overview .overview-item .text-part .info ul li {
+        font-size: 20px;
+    }
+    #overview .bottom-txt p {
+        font-size: 19px;
+        padding: 25px 40px;
+    }
+
+
+    #overview .overview-item .text-part .info ul{
+        padding: 30px 0 30px 60px;
+    }
+    #overview .bottom-txt{
+        border: 2px solid gray;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    #overview .bottom-txt p{
+        font-size: 18px;
+        color: gray;
+        padding: 20px 30px;
+        text-align: justify;
+    }
+/* -------- information page css end -------- */    
+/* -------- gallery page css start -------- */    
+    
+    #gallery {
+        padding: 0 0 60px 0;
+    }
+    #gallery .information a{
+
+        font-size: 19px;
+        padding: 20px 0 20px 0;
+    }
+    #gallery .hospital_room a{
+        padding: 65px 0 20px 0;
+    }
+    #gallery .radiology a {
+        padding: 75px 20px 30px;
+    }
+   
+/* -------- gallery page css end -------- */    
+/* -------- contact us page css start -------- */    
+    
+    #form{
+        padding: 0 0 80px 0;
+    }
+    #form .address{
+        padding-top: 95px;
+    }
+    #form .address table tr td{
+        font-size: 19px;
+        padding: 12px 20px;
+    }
+    #form .input_area{
+        margin-top: 40px;
+    }
+    #form .input_area p{
+        font-size: 22px;
+    }
+    #form .input_area .input_item label{
+        font-size: 16px;
+    }
+    #form .input_area .input_item input{
+        font-size: 15px;
+    }
+    #form .contact_number p{
+        font-size: 20px;
+    }
+    #form .contact_number ul {
+        padding: 15px 0 20px 40px;
+    }
+    #form .contact_number ul li{
+        font-size: 17px;
+    }
+    #form .language ul {
+        padding: 15px 0 50px 35px;
+      }
+    #form .language ul li{
+        font-size: 17px;
+    }
+
+    /* -------- contact us page css end -------- */    
+    /* -------- about us page css end -------- */    
+    
+    #main {
+        padding: 80px 0 20px 0;
+    }
+    #main h2 {
+        font-size: 26px;
+    }
+    #main ul{
+        padding: 30px 30px 40px 30px;
+    }
+    #main ul li{
+        font-size: 19px;
+        padding: 20px 0 20px 0;
+    }
+
+    #team{
+        padding: 50px 0 80px 0;
+        background-color: #F4F6FC;
+    }
+    #team .team-member .member{
+        margin-top: 25px;
+    }
+    #team .team-member .member .name {
+        padding-top: 10px;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+/* -------- anout us page css end -------- */
+}
